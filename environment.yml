@@ -1,0 +1,15 @@
+name: mvviewer
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - "streamlit>=1.52,<2"
+  - "pysam>=0.22,<0.24"
+  - "pandas>=2.0,<4"
+  - "scipy>=1.10,<2"
+  - plotly=6.1.2
+  - python-kaleido=0.2.1
+  - "seaborn>=0.13,<0.14"
+  - "matplotlib>=3.8,<4"
